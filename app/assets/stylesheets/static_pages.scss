@@ -1,3 +1,26 @@
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar-logo {
+	max-width: 80%;
+	max-height: 60px;
+	margin: auto;
+}
+.bar-text{
+	color:white;
+}
+.menu {
+	height: 300px;
+}
+
+.banner {
+	padding-left: 10%;
+	padding-right: 10%;
+	background-image: image-url("banner.jpg");
+	background-color: lightblue;
+	height: 500px;
+	background-size: 100%;
+	opacity:100%; 
+	padding-top: 30%;
+}
+
+.navbar {
+	margin:0;
+}
