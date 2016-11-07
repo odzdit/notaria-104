@@ -1,4 +1,12 @@
 <div class="row banner">
+    <div>
+        <%= form_tag "/home", :class => "foo" do %>
+        <%= text_field_tag "Name", "Name" %><br/><br/>
+        <%= text_field_tag "Last Name", "Last Name" %><br/><br/>
+        <%= text_field_tag "email", "Email" %>
+    <%= submit_tag "Save" %>
+    </div>
+<% end %>
 </div>
 <div class="row">
 <div class="col-sm-12 text-center"><h3>Our offering to you</h3></div>
