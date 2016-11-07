@@ -24,3 +24,42 @@
 .navbar {
 	margin:0;
 }
+.circle {
+height: 60px;
+width: 60px;
+line-height: 60px;
+border-radius: 50px;
+display:inline-block;
+background-color: black;
+color: white;
+text-align: center;
+font-size: 2em;
+}
+
+.usp {
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+.usp-title {
+	padding-top:10px
+}
+
+.usp-text {
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.bio {
+	background-color: #EDF4F8;
+	height: 300px;
+}
+
+.bio-text{
+	font-style: italic;
+	font-size: 25px;
+	vertical-align:middle;
+	padding-top:15%;
+	padding-left:10%;
+	padding-right:10%;
+}
