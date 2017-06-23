@@ -21,4 +21,3 @@ class StaticPagesController < ApplicationController
 
     
 end
-1
